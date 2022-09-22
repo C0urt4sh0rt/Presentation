@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin-left:0;
+    margin-bottom:0;
+    font-family: cursive, Helvetica, sans-serif;
+}
+
+.bodybackground {
+    width: 80%;
+    margin:auto;
+    background-color: rgba(255, 127, 80, 0.547);
+    padding: 5px 20px;
+}
+
+body {
+    width:100%;
+    background-image:url(https://1d59b73swr1f1swu2v451xcx-wpengine.netdna-ssl.com/wp-content/uploads/2016/09/green-leaves-Sameera-Madusanka-2160x1440.jpeg);
+    margin-top:0;
+}
+
+h1 {
+    text-align: center;
+    color:rgba(20, 102, 30, 0.895);
+    border-top: solid 1pt rgba(20, 102, 29, 0.766);
+    border-bottom: solid 2pt rgba(20, 102, 29, 0.766);
+    border-radius: 25%;
+    overflow: hidden;
+}
+
+blockquote{
+    font-style: italic;
+    text-align: center;
+    margin-top: 0;
+    padding-bottom:5px;
+}
+
+.flags {
+    display: inline-block;
+    margin-left: 90%;
+    vertical-align: top;
+}
+.usa {
+    display:inline-block;
+}
+.spain {
+    display: inline-block;
+}
+img {
+    border-radius: 20%;
+    display:block;
+    margin: auto;
+}
+
+h2 {
+    text-align: center;
+    color:rgba(103, 5, 5, 0.718);
+}
+
+.aboutme {
+    font-size: 13pt;
+}
+
+h3 {
+    margin-left: 20%;
+    background-image: linear-gradient(90deg, transparent, antiquewhite 5%, transparent 40%);
+    border-bottom: solid 1pt  rgba(20, 102, 29, 0.766);
+    border-radius: 25%;
+}
+
+span {
+    font-style:italic;
+    color: rgba(103, 5, 5, 0.718);
+}
+
+/*here, I was trying to center the ordered and unordered lists neatly. I finally figured out that I should use my margins. lol*/
+
+ul, ol {
+    text-align:justify;
+    list-style-position:inside;
+    margin-left: 40%;
+    line-height: 24pt;
+}
+
+ul > li:first-of-type {
+    background-image:linear-gradient(90deg, transparent, green 10%, transparent 30%);
+    border-radius: 50%;
+}
+ul > li:nth-of-type(2) {
+    color:antiquewhite;
+    background-image: linear-gradient(90deg, transparent 0%, rgba(139, 0, 0, 0.718) 4%, transparent 40%);
+    border-radius: 25%;
+}
+ul > li:last-of-type {
+    background-image:linear-gradient(90deg, transparent, green 10%, transparent 35%);
+    border-radius:30%;
+}
+
+ol {
+    padding-bottom: 20px;
+}
+
+ol > li:first-of-type {
+    background-image: linear-gradient(90deg, transparent 0%, rgba(139, 0, 0, 0.718) 4%, transparent 80%);
+    color:antiquewhite;
+    border-radius: 40%;
+}
+ol > li:nth-of-type(2) {
+    background-image:linear-gradient(90deg, transparent, green 10%, transparent 45%);
+    border-radius: 25%;
+}
+ol > li:last-of-type {
+    background-image: linear-gradient(90deg, transparent 0%, rgba(139, 0, 0, 0.718) 4%, transparent 25%);
+    color:antiquewhite;
+    border-radius: 60%;
+}
+
+/*all of the stuff within the section below involves footer Css*/
+
+footer {
+    background-color:rgba(20, 102, 29, 0.766);
+    color: coral;
+    padding: 10px 20px 15px 20px;
+    width: 100%;
+    font-weight:bold;
+    font-size: 15pt;
+}
+footer > .footercontainer > p {
+    display: inline;
+}
+.footercontainer {
+    padding:0%;
+    display: inline-block;
+    vertical-align: middle;
+    animation: catchme 15s infinite linear alternate;
+}
+.buttonsdisplay {
+    display: inline;
+}
+a :hover {
+    color:rgba(139, 0, 0, 0.718);
+    transform:scale(1.1);
+}
+a :active {
+    color:antiquewhite;
+}
+
+/*Below this line is Css for my table...I know, it's a little messy in here.*/
+
+table {
+    margin:auto;
+}
+caption {
+    border-bottom: solid 1pt  rgba(20, 102, 29, 0.766);
+    background-image: linear-gradient(90deg, transparent 10%, antiquewhite 50%, transparent);
+    justify-items:center;
+    border-radius: 25%;
+    color: rgba(139, 0, 0, 0.718);
+    font-size: 20pt;
+}
+.right {
+    text-align: right;
+}
+.left {
+    text-align: left;
+}
+.center {
+    text-align: center;
+    background-image: linear-gradient(90deg, transparent 5%, rgba(139, 0, 0, 0.718), transparent 75%);
+    border-radius: 25%;
+    color:rgba(7, 32, 10, 0.766);
+}
+
+tr > td > li {
+    list-style-type: none;
+    border: solid .5pt rgba(20, 102, 29, 0.766);
+}
+
+/*an animation because why not?!*/
+
+@keyframes catchme{
+    0% {transform:translateX(100%)};
+    100% {transform:translateX(-100%)};
+}
+/*Reflection: after writing all of this Css, I realize that I could've used some variables to clean 
+things up a bit and save time. I have used the same colors over and over. This is one of the first 
+projects in which I have attempted to apply what I have learned over the last two months on my own
+... and it was a struggle in some areas... but here's to learning! I had fun! I appreciate any feedback
+ given.*/
