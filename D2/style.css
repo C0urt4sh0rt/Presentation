@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+}
+.simply_logo {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+#simply {
+  width: 15%;
+}
+.body_container {
+  width: 44%;
+  margin: auto;
+}
+.banner {
+  text-align: center;
+  border-top: 1pt solid #fed267;
+  background-color: #fdfbf1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3em;
+}
+span {
+  color: #004d4c;
+  font-weight: bold;
+}
+.banner_color {
+  color: #004d4c;
+}
+h1 {
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+}
+.h1p {
+  padding-bottom: 0.7em;
+}
+#food {
+  border-radius: 2%;
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(5px 5px 5px gray);
+}
+.gray {
+  color: gray;
+  padding-top: 0.7em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+.featured {
+  border-left: 1pt solid #fed267;
+}
+.color {
+  color: #b4440d;
+}
+.space {
+  margin-left: 1em;
+}
+.ingredients {
+  padding-top: 3em;
+  line-height: 2.5em;
+}
+h2 {
+  padding-bottom: 0.5em;
+  border-bottom: 1pt solid #bff2f1;
+  font-weight: normal;
+}
+.bold {
+  font-weight: bold;
+  padding-top: 1em;
+}
+.dough {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+a {
+  color: #0d7575;
+}
+.morespace {
+  padding-top: 1em;
+}
+/*written by Courtney J. Hampton-Thomas*/
