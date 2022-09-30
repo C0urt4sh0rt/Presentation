@@ -67,7 +67,7 @@ body {
   background-image: url(https://i.pinimg.com/originals/55/68/3e/55683e3b7ceb23834da3f0e24a0ec199.gif);
 }
 #body_container {
-  height: 100vmax;
+  height: 100vh;
   padding-top: 10em;
 }
 #filter {
@@ -82,7 +82,7 @@ body {
   z-index: -1;
 }
 #class_projects {
-  width: 50%;
+  width: 30%;
   margin-left: 1em;
 }
 .individual {
