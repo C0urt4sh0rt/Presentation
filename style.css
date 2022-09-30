@@ -44,12 +44,11 @@ blockquote {
 .flags {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 20%;
 }
 .usa {
   display: inline-block;
-  padding-right: 4px;
 }
 .usa img {
   margin: 0;
@@ -277,7 +276,9 @@ a :active {
 /*Below this line is Css for my table...I know, it's a little messy in here.*/
 
 table {
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1em;
   transition: box-shadow 1s ease-in-out;
 }
 table:hover {
