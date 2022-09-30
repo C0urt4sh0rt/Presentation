@@ -137,6 +137,7 @@ h3 {
 span {
   font-style: italic;
   color: rgba(103, 5, 5, 0.718);
+  user-select: none;
 }
 
 /*here, I was trying to center the ordered and unordered lists neatly. I finally figured out that I should use my margins. lol*/
@@ -294,6 +295,10 @@ caption {
 tr > td > li {
   list-style-type: none;
   border: solid 0.5pt rgba(20, 102, 29, 0.766);
+}
+.buttonsdisplay i {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 /*an animation because why not?!*/
