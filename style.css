@@ -50,12 +50,15 @@ blockquote {
 }
 .usa img {
   margin: 0;
+  transition: transform 0.5s ease-in-out;
 }
+
 .spain {
   display: inline-block;
 }
 .spain img {
   margin: 0;
+  transition: transform 0.5s ease-in-out;
 }
 img {
   border-radius: 20%;
@@ -84,7 +87,20 @@ h2 {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.637);
 }
 .aboutme:hover h2 {
-  transform: translateY(10px);
+  transform: translateY(1px);
+}
+.aboutme a {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgba(20, 102, 30, 0.895);
+  border-radius: 8px;
+  transition: background-color 1s ease-in-out;
+  transition: color 0.5s ease-in-out;
+}
+.aboutme a:hover {
+  color: rgba(250, 235, 215, 0.808);
+  cursor: pointer;
+  background-color: rgba(103, 5, 5, 0.718);
 }
 #things {
   display: flex;
