@@ -24,11 +24,14 @@ h1 {
   border-bottom: solid 2pt rgba(20, 102, 29, 0.766);
   border-radius: 25%;
   overflow: hidden;
+  margin-top: 0;
 }
 .quoteflags {
   display: flex;
   flex-direction: row;
   width: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
 }
 blockquote {
   font-style: italic;
@@ -233,10 +236,13 @@ ol > li:last-of-type {
 
 footer {
   overflow: hidden;
+  display: flex;
+  align-items: center;
   background-color: rgba(20, 102, 29, 0.766);
   color: coral;
-  padding: 10px 20px 15px 20px;
+  padding-right: 8px;
   width: 100%;
+  height: 2.5em;
   font-weight: bold;
   font-size: 15pt;
 }
@@ -249,7 +255,7 @@ footer > .footercontainer > p {
   display: inline-block;
   vertical-align: middle;
   transform: translateX(0);
-  animation: catchme 45s infinite linear;
+  animation: catchme 25s infinite linear;
 }
 .buttonsdisplay {
   display: inline;
