@@ -1,12 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+
 * {
   margin: 0;
+  font-family: "Architects Daughter", sans-serif, cursive, "Times New Roman";
+}
+#heading {
+  position: fixed;
+  width: 100%;
+  height: 9.2em;
+  background-image: linear-gradient(
+    90deg,
+    transparent 0%,
+    #f4e9cdd0 30%,
+    #f4e9cdd0 65%,
+    transparent
+  );
+  color: rgb(86, 86, 86);
+  margin-bottom: 1em;
+  border-bottom: solid 1pt rgb(86, 86, 86);
 }
 h1 {
   text-align: center;
 }
+#secondary-title {
+  text-align: center;
+}
+h3 {
+  margin-top: 0.3em;
+}
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 25%;
+  margin: auto;
+  padding: 0.7em;
+}
+.topbutton {
+  background-color: #a833b9;
+  color: antiquewhite;
+  border: none;
+  border-radius: 16px;
+  padding: 7px;
+  font-weight: bold;
+}
+.topbutton i {
+  margin-right: 5px;
+}
 body {
-  height: 100vmax;
+  position: relative;
+  background-image: url(https://i.pinimg.com/originals/55/68/3e/55683e3b7ceb23834da3f0e24a0ec199.gif);
 }
 #body_container {
   height: 100vmax;
+  padding-top: 10em;
+}
+#filter {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(rgba(128, 0, 128, 0.562), rgba(0, 0, 0, 0.479));
+  z-index: -1;
 }
