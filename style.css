@@ -81,9 +81,11 @@ h2 {
 .aboutme {
   font-size: 13pt;
   border-radius: 16px;
-  padding: 0.5em;
+  padding: 1em;
   overflow: hidden;
   transition: box-shadow 1s ease-in;
+  margin-bottom: 1em;
+  background-color: rgba(255, 127, 80, 0.4);
 }
 .aboutme:hover {
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.637);
@@ -107,24 +109,30 @@ h2 {
 #things {
   display: flex;
   flex-direction: row;
+  margin-bottom: 1em;
 }
 #hobbies {
   width: 50%;
-  border-radius: 16px;
+  border-radius: 50px 0 50px 0;
   transition: box-shadow 1s ease-in;
   overflow: hidden;
+  margin-right: 1em;
+  background-color: rgba(255, 127, 80, 0.4);
+  padding: 1em;
 }
 #hobbies:hover {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.637);
 }
 #interest {
   width: 50%;
-  border-radius: 16px;
+  border-radius: 0 50px 0 50px;
   transition: box-shadow 1s ease-in-out;
   overflow: hidden;
+  background-color: rgba(255, 127, 80, 0.4);
+  padding: 1em;
 }
 #interest:hover {
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.637);
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.637);
 }
 
 h3 {
@@ -156,6 +164,7 @@ span {
   font-style: italic;
   color: rgba(103, 5, 5, 0.718);
   user-select: none;
+  font-size: 0.7em;
 }
 
 /*here, I was trying to center the ordered and unordered lists neatly. I finally figured out that I should use my margins. lol*/
@@ -280,6 +289,7 @@ table {
   margin-right: auto;
   margin-bottom: 1em;
   transition: box-shadow 1s ease-in-out;
+  background-color: rgba(255, 127, 80, 0.4);
 }
 table:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.637);
