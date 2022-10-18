@@ -63,8 +63,10 @@ h3 {
   margin-right: 5px;
 }
 body {
-  position: relative;
   background-image: url(https://i.pinimg.com/originals/55/68/3e/55683e3b7ceb23834da3f0e24a0ec199.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(2px);
 }
 
 #body_container {
@@ -151,4 +153,12 @@ footer a {
 }
 footer a:hover {
   color: antiquewhite;
+}
+/* JS Classes */
+.highlight {
+  background-image: radial-gradient(yellow, transparent);
+  box-shadow: rgb(255, 255, 0) 0px 0px 20px;
+  transition: background-image 0.3s ease-in-out;
+  transition: box-shadow 0.5s ease-in-out;
+  color: rgb(100, 98, 98);
 }
